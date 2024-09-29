@@ -31702,8 +31702,6 @@ with pkgs;
   roxctl = callPackage ../applications/networking/cluster/roxctl {
   };
 
-  rssguard = libsForQt5.callPackage ../applications/networking/feedreaders/rssguard { };
-
   scudcloud = callPackage ../applications/networking/instant-messengers/scudcloud { };
 
   shod = callPackage ../applications/window-managers/shod { };
